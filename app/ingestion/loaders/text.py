@@ -1,6 +1,6 @@
 import logfire
 
-def load_text(file_path: str) -> str:
+def parse_text(file_path: str) -> str:
     """
     Load text from a file.
 
