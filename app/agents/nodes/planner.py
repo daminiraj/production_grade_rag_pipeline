@@ -1,7 +1,7 @@
 import logfire
 
 from app.agents.state import AgentState
-from app.gateway import get_langchain_llm
+from app.gateway.client import get_langchain_llm
 from langchain_groq import ChatGroq
 from app.config import settings
 
